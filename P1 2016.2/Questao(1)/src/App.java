@@ -1,0 +1,21 @@
+public class App {
+    public static void main(String[] args) {
+        boolean[] arrayBoolean = new boolean[]{
+            false,
+            true,
+            true,
+            false,
+            false,
+            false,
+            true,
+            true,
+            false
+        };
+
+        int[] arrayInt = Utils.booleanToInt(arrayBoolean);
+
+        for (int i : arrayInt) {
+            System.out.println(i);
+        }
+    }
+}
