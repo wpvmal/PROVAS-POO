@@ -1,4 +1,4 @@
-# Questão 2 (5,0) -
+# Questão 2 (5,0)
  
 ![Diagrama UML da questão](Untitled.png)
 

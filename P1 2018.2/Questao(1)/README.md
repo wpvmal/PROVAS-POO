@@ -1,4 +1,5 @@
-# Questão 1 (6) –  Desenvolva o código conforme pedido abaixo:
+# Questão 1 (6) 
+## Desenvolva o código conforme pedido abaixo:
 
 A - Crie a interface Comestivel com apenas um método denominado comer, que não possui argumentos e que não retorna nada.
 
