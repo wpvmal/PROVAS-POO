@@ -1,3 +1,5 @@
+package services;
+
 public class Utils {
     public static int[] booleanToInt(boolean[] arrayBoolean){
         int[] arrayInt = new int[arrayBoolean.length];
