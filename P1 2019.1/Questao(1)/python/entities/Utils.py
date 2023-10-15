@@ -1,7 +1,7 @@
-from entities.Carro import Carro
-from entities.Elefante import Elefante
-from entities.Notebook import Notebook
-from entities.Produto import Produto
+from .Carro import Carro
+from .Elefante import Elefante
+from .Notebook import Notebook
+from .Produto import Produto
 
 
 class Utils:
@@ -13,8 +13,12 @@ class Utils:
 class Utils2:
     @staticmethod
     def get_lista() -> list:
-        return [Notebook("ABC"),
-                Elefante("Dumbo", "Orelhudo"),
-                Notebook("DEF"),
-                Carro("MER", 3.2),
-                Carro("WMB", 5.0)]
+        lista = [Notebook("ABC"),
+                 Elefante("Dumbo", "Orelhudo"),
+                 Notebook("DEF"),
+                 Carro("MER", 3.2),
+                 Carro("WMB", 5.0)]
+
+        lista[0].preco = lista[2].preco = 2999.99
+        lista[3].preco = lista[4].preco = 549900.00
+        return lista

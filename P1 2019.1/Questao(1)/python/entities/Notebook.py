@@ -1,5 +1,5 @@
-from Eletronico import Eletronico
-from Produto import Produto
+from .Eletronico import Eletronico
+from .Produto import Produto
 
 
 class Notebook(Produto, Eletronico):

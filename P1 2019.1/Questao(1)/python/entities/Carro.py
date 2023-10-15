@@ -1,4 +1,4 @@
-from Produto import Produto
+from .Produto import Produto
 
 
 class Carro(Produto):
